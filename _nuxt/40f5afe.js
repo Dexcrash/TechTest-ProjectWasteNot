@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{436:function(t,e,o){"use strict";o.r(e);var c=o(163),n=o(92),component=Object(n.a)({},(function(){return(0,this._self._c)(c.a,{attrs:{"lazy-src":"/TechTest-ProjectWasteNot/photo.jpeg","max-height":"800","max-width":"400",src:"/TechTest-ProjectWasteNot/photo.jpeg"}})}),[],!1,null,null,null);e.default=component.exports}}]);
