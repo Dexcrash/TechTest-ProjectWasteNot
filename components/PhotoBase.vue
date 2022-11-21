@@ -1,8 +1,8 @@
 <template>
   <v-img
-    lazy-src="/photo.jpeg"
+    lazy-src="/TechTest-ProjectWasteNot/photo.jpeg"
     max-height="800"
     max-width="400"
-    src="/photo.jpeg"
+    src="/TechTest-ProjectWasteNot/photo.jpeg"
   />
 </template>

@@ -1,22 +1,36 @@
 <template>
-  <v-form
-    ref="form"
-    v-model="valid"
-    lazy-validation
-  >
-    <v-text-field
-      v-model="number"
-      :rules="numberRules"
-      type="number"
-      label="Number"
-      required
-      @input="onInput"
-    />
+  <div>
+    <v-form
+      ref="form"
+      v-model="valid"
+      lazy-validation
+    >
+      <v-text-field
+        v-model="number"
+        :rules="numberRules"
+        type="number"
+        label="Number"
+        required
+        @input="onInput"
+      />
 
-    <v-chip :color="color">
-      {{ message }}
-    </v-chip>
-  </v-form>
+      <v-chip :color="color">
+        {{ message }}
+      </v-chip>
+    </v-form>
+    <br>
+    <br>
+    <p>
+      Here is the link to the code:
+      <a
+        href="https://github.com/Dexcrash/TechTest-ProjectWasteNot"
+        target="_blank"
+        rel="Repo"
+      >
+        Repo
+      </a>
+    </p>
+  </div>
 </template>
 
 <script>
